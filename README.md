@@ -1,33 +1,30 @@
-## 📖 Project Context
+# Moodle Extensions by Sajjad Karimian
 
-This plugin was developed as part of a broader effort to improve **course navigation and data organization in Moodle-based learning environments**, particularly in scenarios where users are enrolled in a large number of courses across multiple categories.
+This repository contains a collection of custom Moodle plugins developed to improve usability, data organization, and user experience in Moodle-based systems.
 
-In standard Moodle installations, the default *My courses* page presents courses in a flat or minimally structured format, which can become difficult to navigate at scale. This plugin addresses that limitation by introducing a structured, category-based view of enrolled courses.
+## 📦 Available Plugins
 
-The design of this plugin follows a **non-intrusive approach**, meaning:
-- It does not override Moodle core pages
-- It avoids fragile theme-dependent customizations
-- It remains compatible with standard Moodle upgrade paths
+### 1. Courses by Category (`local_mycoursegroups`)
+An alternative course navigation interface that groups enrolled courses by category.
 
-This makes it suitable for use in production environments where **maintainability, portability, and reviewability** are important.
+➡️ [View plugin documentation](./Local/MyGroupCourses/README.md)
 
 ---
 
-## 🎯 Purpose
+## 🎯 Goals of this Repository
 
-The primary goal of this plugin is to:
-
-- Improve usability of course navigation
-- Provide a scalable way to organize enrolled courses
-- Offer flexible presentation modes without modifying core behavior
-- Serve as a clean, extensible foundation for further Moodle UI enhancements
+- Improve Moodle usability at scale
+- Explore alternative UI patterns
+- Develop non-intrusive, upgrade-safe extensions
+- Serve as a foundation for future research and development
 
 ---
 
-## 🧩 Plugin Type
+## 🧠 Design Philosophy
 
-This is a **local plugin (`local_mycoursegroups`)**, meaning it:
+All plugins in this repository follow:
 
-- Adds new functionality without altering core Moodle behavior
-- Can be safely installed or removed
-- Is intended for site-specific enhancements and experimentation
+- No core overrides
+- Theme-independent design
+- Moodle API-first approach
+- Maintainability across upgrades
