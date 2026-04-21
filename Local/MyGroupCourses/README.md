@@ -1,6 +1,6 @@
 # Courses by category (`local_mycoursegroups`)
 
-An alternative Moodle page that displays a user's enrolled courses grouped by course category.
+An alternative Moodle page that displays a user's enrolled courses grouped by course category in Boost theme.
 
 ## What this plugin does
 
